@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  #gif-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #gif-form input {
+    margin-right: 10px;
+  }
+  
+  #remove-button {
+    margin-top: 20px;
+  }
+  
+  img {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    body {
+      flex-wrap: wrap;
+    }
+  }
